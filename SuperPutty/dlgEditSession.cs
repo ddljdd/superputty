@@ -56,6 +56,7 @@ namespace SuperPutty
                 this.Text = "Edit session: " + session.SessionName;
                 this.textBoxSessionName.Text = Session.SessionName;
                 this.textBoxHostname.Text = Session.Host;
+                this.textBoxPassword.Text = Session.Password;
                 this.textBoxPort.Text = Session.Port.ToString();
                 this.textBoxExtraArgs.Text = Session.ExtraArgs;
                 this.textBoxUsername.Text = Session.Username;
