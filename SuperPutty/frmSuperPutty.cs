@@ -990,18 +990,42 @@ namespace SuperPutty
                     : connStr.Protocol.GetValueOrDefault((ConnectionProtocol)Enum.Parse(typeof(ConnectionProtocol), protoString));
                 SessionData session = new SessionData
                 {
-                    Host = connStr.Host,
-                    SessionName = connStr.Host,
+                    Host = connStr.Host.Trim(),
+                    SessionName = connStr.Host.Trim(),
                     SessionId = SuperPuTTY.MakeUniqueSessionId(SessionData.CombineSessionIds("ConnectBar", connStr.Host)),
                     Proto = proto,
                     Port = connStr.Port.GetValueOrDefault(dlgEditSession.GetDefaultPort(proto)),
-                    Username = this.tbTxtBoxLogin.Text,
-                    Password = this.tbTxtBoxPassword.Text,
+                    Username = this.tbTxtBoxLogin.Text.Trim(),
+                    Password = this.tbTxtBoxPassword.Text.Trim(),
                     PuttySession = (string)this.tbComboSession.SelectedItem
                 };
+                if (session.Host.Contains("ssh://"))
+                {
+                    session.Host = session.Host.Replace("ssh://", "");
+                }
+                // Parse username:password@IP
+                if (session.Host.Contains("@"))
+                {
+                    string[] h1 = session.Host.Split('@');
+                    session.Host = h1[1];
+                    if (h1[0].Contains(":"))
+                    {
+                        string[] h2 = h1[0].Split(':');
+                        session.Username = h2[0];
+                        session.Password = h2[1];
+                    }
+                    else
+                    {
+                        session.Username = h1[0];
+                    }
+                    session.SessionName = session.Host;
+                }
+                
                 SuperPuTTY.OpenSession(new SessionDataStartInfo { Session = session, UseScp = isScp });
                 oldHostName = this.tbTxtBoxHost.Text;
                 RefreshConnectionToolbarData();
+                SuperPuTTY.AddSession(session);
+                SuperPuTTY.SaveSessions();
             }
         }
 

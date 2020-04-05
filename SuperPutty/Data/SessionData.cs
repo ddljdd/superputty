@@ -196,8 +196,9 @@ namespace SuperPutty.Data
         }
 
         private string _Password;
-        [XmlIgnore]
-        [Browsable(false)]
+        [XmlAttribute]
+        [DisplayName("Password")]
+        [Description("This is the password that will be used to login.")]
         public string Password
         {
             get {
