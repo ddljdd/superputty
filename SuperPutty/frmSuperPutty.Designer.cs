@@ -734,9 +734,9 @@ namespace SuperPutty
             // 
             this.tbComboProtocol.AutoSize = false;
             this.tbComboProtocol.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.tbComboProtocol.DropDownWidth = 75;
+            this.tbComboProtocol.DropDownWidth = 90;
             this.tbComboProtocol.Name = "tbComboProtocol";
-            this.tbComboProtocol.Size = new System.Drawing.Size(70, 23);
+            this.tbComboProtocol.Size = new System.Drawing.Size(90, 23);
             this.tbComboProtocol.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbItemConnect_KeyPress);
             // 
             // toolStripLabel2
@@ -748,7 +748,7 @@ namespace SuperPutty
             // tbTxtBoxHost
             // 
             this.tbTxtBoxHost.Name = "tbTxtBoxHost";
-            this.tbTxtBoxHost.Size = new System.Drawing.Size(180, 25);
+            this.tbTxtBoxHost.Size = new System.Drawing.Size(360, 25);
             this.tbTxtBoxHost.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbItemConnect_KeyPress);
             // 
             // toolStripLabel3
@@ -760,7 +760,7 @@ namespace SuperPutty
             // tbTxtBoxLogin
             // 
             this.tbTxtBoxLogin.Name = "tbTxtBoxLogin";
-            this.tbTxtBoxLogin.Size = new System.Drawing.Size(100, 25);
+            this.tbTxtBoxLogin.Size = new System.Drawing.Size(200, 25);
             this.tbTxtBoxLogin.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbItemConnect_KeyPress);
             // 
             // toolStripLabel4
@@ -772,7 +772,7 @@ namespace SuperPutty
             // tbTxtBoxPassword
             // 
             this.tbTxtBoxPassword.Name = "tbTxtBoxPassword";
-            this.tbTxtBoxPassword.Size = new System.Drawing.Size(100, 25);
+            this.tbTxtBoxPassword.Size = new System.Drawing.Size(200, 25);
             this.tbTxtBoxPassword.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbItemConnect_KeyPress);
             // 
             // toolStripLabel5
@@ -787,7 +787,7 @@ namespace SuperPutty
             this.tbComboSession.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.tbComboSession.DropDownWidth = 250;
             this.tbComboSession.Name = "tbComboSession";
-            this.tbComboSession.Size = new System.Drawing.Size(110, 25);
+            this.tbComboSession.Size = new System.Drawing.Size(250, 25);
             this.tbComboSession.Sorted = true;
             this.tbComboSession.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbItemConnect_KeyPress);
             // 

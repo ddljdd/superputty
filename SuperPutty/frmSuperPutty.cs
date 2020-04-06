@@ -1012,11 +1012,13 @@ namespace SuperPutty
                     {
                         string[] h2 = h1[0].Split(':');
                         session.Username = h2[0];
+                        this.tbTxtBoxLogin.Text = h2[0];
                         session.Password = h2[1];
                     }
                     else
                     {
                         session.Username = h1[0];
+                        this.tbTxtBoxLogin.Text = h1[0];
                     }
                     session.SessionName = session.Host;
                 }

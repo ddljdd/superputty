@@ -264,7 +264,7 @@
             this.buttonBrowseLayoutsFolder.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonBrowseLayoutsFolder.Location = new System.Drawing.Point(965, 441);
             this.buttonBrowseLayoutsFolder.Name = "buttonBrowseLayoutsFolder";
-            this.buttonBrowseLayoutsFolder.Size = new System.Drawing.Size(95, 37);
+            this.buttonBrowseLayoutsFolder.Size = new System.Drawing.Size(94, 37);
             this.buttonBrowseLayoutsFolder.TabIndex = 5;
             this.buttonBrowseLayoutsFolder.Text = "Browse";
             this.buttonBrowseLayoutsFolder.UseVisualStyleBackColor = true;
@@ -317,7 +317,7 @@
             // checkRestoreWindow
             // 
             this.checkRestoreWindow.AutoSize = true;
-            this.checkRestoreWindow.Location = new System.Drawing.Point(9, 83);
+            this.checkRestoreWindow.Location = new System.Drawing.Point(11, 76);
             this.checkRestoreWindow.Name = "checkRestoreWindow";
             this.checkRestoreWindow.Size = new System.Drawing.Size(378, 34);
             this.checkRestoreWindow.TabIndex = 26;
@@ -338,7 +338,7 @@
             // checkSingleInstanceMode
             // 
             this.checkSingleInstanceMode.AutoSize = true;
-            this.checkSingleInstanceMode.Location = new System.Drawing.Point(9, 36);
+            this.checkSingleInstanceMode.Location = new System.Drawing.Point(11, 36);
             this.checkSingleInstanceMode.Name = "checkSingleInstanceMode";
             this.checkSingleInstanceMode.Size = new System.Drawing.Size(505, 34);
             this.checkSingleInstanceMode.TabIndex = 24;
@@ -350,7 +350,7 @@
             // checkExitConfirmation
             // 
             this.checkExitConfirmation.AutoSize = true;
-            this.checkExitConfirmation.Location = new System.Drawing.Point(9, 137);
+            this.checkExitConfirmation.Location = new System.Drawing.Point(11, 116);
             this.checkExitConfirmation.Name = "checkExitConfirmation";
             this.checkExitConfirmation.Size = new System.Drawing.Size(210, 34);
             this.checkExitConfirmation.TabIndex = 27;
@@ -404,7 +404,7 @@
             this.btnBrowseMintty.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnBrowseMintty.Location = new System.Drawing.Point(965, 263);
             this.btnBrowseMintty.Name = "btnBrowseMintty";
-            this.btnBrowseMintty.Size = new System.Drawing.Size(94, 34);
+            this.btnBrowseMintty.Size = new System.Drawing.Size(94, 37);
             this.btnBrowseMintty.TabIndex = 32;
             this.btnBrowseMintty.Text = "Browse";
             this.btnBrowseMintty.UseVisualStyleBackColor = true;
@@ -426,7 +426,7 @@
             this.comboBoxTabText.FormattingEnabled = true;
             this.comboBoxTabText.Location = new System.Drawing.Point(114, 32);
             this.comboBoxTabText.Name = "comboBoxTabText";
-            this.comboBoxTabText.Size = new System.Drawing.Size(273, 38);
+            this.comboBoxTabText.Size = new System.Drawing.Size(311, 38);
             this.comboBoxTabText.TabIndex = 35;
             // 
             // label9
@@ -446,7 +446,7 @@
             this.comboBoxTabSwitching.FormattingEnabled = true;
             this.comboBoxTabSwitching.Location = new System.Drawing.Point(114, 76);
             this.comboBoxTabSwitching.Name = "comboBoxTabSwitching";
-            this.comboBoxTabSwitching.Size = new System.Drawing.Size(273, 38);
+            this.comboBoxTabSwitching.Size = new System.Drawing.Size(311, 38);
             this.comboBoxTabSwitching.TabIndex = 37;
             // 
             // label10
@@ -504,7 +504,7 @@
             // checkEnableKeyboardShortcuts
             // 
             this.checkEnableKeyboardShortcuts.AutoSize = true;
-            this.checkEnableKeyboardShortcuts.Location = new System.Drawing.Point(528, 83);
+            this.checkEnableKeyboardShortcuts.Location = new System.Drawing.Point(528, 76);
             this.checkEnableKeyboardShortcuts.Name = "checkEnableKeyboardShortcuts";
             this.checkEnableKeyboardShortcuts.Size = new System.Drawing.Size(305, 34);
             this.checkEnableKeyboardShortcuts.TabIndex = 29;
@@ -557,7 +557,7 @@
             // checkBoxCheckForUpdates
             // 
             this.checkBoxCheckForUpdates.AutoSize = true;
-            this.checkBoxCheckForUpdates.Location = new System.Drawing.Point(528, 137);
+            this.checkBoxCheckForUpdates.Location = new System.Drawing.Point(528, 116);
             this.checkBoxCheckForUpdates.Name = "checkBoxCheckForUpdates";
             this.checkBoxCheckForUpdates.Size = new System.Drawing.Size(360, 34);
             this.checkBoxCheckForUpdates.TabIndex = 30;
@@ -705,7 +705,7 @@
             // buttonBrowseFilezilla
             // 
             this.buttonBrowseFilezilla.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonBrowseFilezilla.Location = new System.Drawing.Point(965, 350);
+            this.buttonBrowseFilezilla.Location = new System.Drawing.Point(965, 351);
             this.buttonBrowseFilezilla.Name = "buttonBrowseFilezilla";
             this.buttonBrowseFilezilla.Size = new System.Drawing.Size(94, 37);
             this.buttonBrowseFilezilla.TabIndex = 38;
@@ -738,7 +738,7 @@
             this.btnBrowseVNC.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnBrowseVNC.Location = new System.Drawing.Point(965, 397);
             this.btnBrowseVNC.Name = "btnBrowseVNC";
-            this.btnBrowseVNC.Size = new System.Drawing.Size(94, 34);
+            this.btnBrowseVNC.Size = new System.Drawing.Size(94, 37);
             this.btnBrowseVNC.TabIndex = 32;
             this.btnBrowseVNC.Text = "Browse";
             this.btnBrowseVNC.UseVisualStyleBackColor = true;
@@ -766,9 +766,9 @@
             // buttonBrowseWinSCP
             // 
             this.buttonBrowseWinSCP.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonBrowseWinSCP.Location = new System.Drawing.Point(965, 307);
+            this.buttonBrowseWinSCP.Location = new System.Drawing.Point(965, 308);
             this.buttonBrowseWinSCP.Name = "buttonBrowseWinSCP";
-            this.buttonBrowseWinSCP.Size = new System.Drawing.Size(95, 37);
+            this.buttonBrowseWinSCP.Size = new System.Drawing.Size(94, 37);
             this.buttonBrowseWinSCP.TabIndex = 35;
             this.buttonBrowseWinSCP.Text = "Browse";
             this.buttonBrowseWinSCP.UseVisualStyleBackColor = true;
@@ -826,7 +826,7 @@
             this.groupBox8.Controls.Add(this.label20);
             this.groupBox8.Controls.Add(this.numericUpDown1);
             this.groupBox8.Controls.Add(this.checkBoxPersistTsHistory);
-            this.groupBox8.Location = new System.Drawing.Point(603, 336);
+            this.groupBox8.Location = new System.Drawing.Point(603, 263);
             this.groupBox8.Name = "groupBox8";
             this.groupBox8.Size = new System.Drawing.Size(433, 72);
             this.groupBox8.TabIndex = 43;
@@ -848,7 +848,7 @@
             this.groupBox7.Controls.Add(this.label17);
             this.groupBox7.Controls.Add(this.textBoxHomeDirPrefix);
             this.groupBox7.Controls.Add(this.label16);
-            this.groupBox7.Location = new System.Drawing.Point(603, 213);
+            this.groupBox7.Location = new System.Drawing.Point(603, 126);
             this.groupBox7.Name = "groupBox7";
             this.groupBox7.Size = new System.Drawing.Size(433, 115);
             this.groupBox7.TabIndex = 42;
@@ -921,7 +921,7 @@
             this.groupBox3.Controls.Add(this.label12);
             this.groupBox3.Controls.Add(this.numericUpDownOpacity);
             this.groupBox3.Controls.Add(this.checkMinimizeToTray);
-            this.groupBox3.Location = new System.Drawing.Point(603, 400);
+            this.groupBox3.Location = new System.Drawing.Point(603, 351);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(433, 180);
             this.groupBox3.TabIndex = 40;
@@ -1032,14 +1032,14 @@
             this.comboSearchMode.FormattingEnabled = true;
             this.comboSearchMode.Location = new System.Drawing.Point(104, 66);
             this.comboSearchMode.Name = "comboSearchMode";
-            this.comboSearchMode.Size = new System.Drawing.Size(274, 38);
+            this.comboSearchMode.Size = new System.Drawing.Size(324, 38);
             this.comboSearchMode.TabIndex = 41;
             // 
             // btnFont
             // 
             this.btnFont.Location = new System.Drawing.Point(104, 24);
             this.btnFont.Name = "btnFont";
-            this.btnFont.Size = new System.Drawing.Size(274, 36);
+            this.btnFont.Size = new System.Drawing.Size(324, 36);
             this.btnFont.TabIndex = 39;
             this.btnFont.Text = "Choose Font";
             this.btnFont.UseVisualStyleBackColor = true;
